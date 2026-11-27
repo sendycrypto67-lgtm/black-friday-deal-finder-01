@@ -10,6 +10,13 @@
 // vendor/makefun-frontend.ts as it is: the scorer requires dossier.json to be
 // byte for byte what its own copy writes.
 //
+// Fix rounds after the build: a second round added 19 deals and replaced all
+// 17 Amazon search URLs with direct product links; a third round (27 Nov 2026)
+// replaced 12 more search URLs with verified direct product links (7 Best Buy,
+// 4 Walmart, 1 Dell) and corrected the Sony XM5 price to $169.99. One search
+// URL remains on purpose: the Dyson Supersonic Nural at Walmart, whose $259.99
+// price is a 2025 figure and could not be verified against a 2026 listing.
+//
 // Serve it locally with `node serve.ts`, then open http://localhost:8080.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
