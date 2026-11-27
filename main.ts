@@ -13,9 +13,11 @@
 // Fix rounds after the build: a second round added 19 deals and replaced all
 // 17 Amazon search URLs with direct product links; a third round (27 Nov 2026)
 // replaced 12 more search URLs with verified direct product links (7 Best Buy,
-// 4 Walmart, 1 Dell) and corrected the Sony XM5 price to $169.99. One search
-// URL remains on purpose: the Dyson Supersonic Nural at Walmart, whose $259.99
-// price is a 2025 figure and could not be verified against a 2026 listing.
+// 4 Walmart, 1 Dell) and corrected the Sony XM5 price to $169.99. A fourth
+// round the same day fixed the last stale deal: the Dyson Supersonic Nural
+// was repriced from its stale 2025 Walmart $259.99 to the verified 2026
+// Amazon deal, $349 (was $449.99, new unit, direct dp link), and moved from
+// Smart home to Beauty. Zero search URLs remain in the data.
 //
 // Serve it locally with `node serve.ts`, then open http://localhost:8080.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
