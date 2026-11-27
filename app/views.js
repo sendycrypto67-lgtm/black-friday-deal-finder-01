@@ -18,6 +18,10 @@ export const CATEGORIES = [
   "Gaming",
   "Kitchen & home",
   "Streaming",
+  "Fashion",
+  "Toys",
+  "Beauty",
+  "Phones & wearables",
 ];
 
 export function money(n) {
@@ -41,6 +45,10 @@ export function tileLabel(category) {
     Gaming: "PLAY",
     "Kitchen & home": "HOME",
     Streaming: "TV",
+    Fashion: "STYLE",
+    Toys: "TOY",
+    Beauty: "GLOW",
+    "Phones & wearables": "PHONE",
   };
   return map[category] ?? "DEAL";
 }
@@ -95,7 +103,7 @@ export function renderHome(app, state, onState) {
   app.innerHTML = `
     <section class="hero">
       <h1>Black Friday 2026, <em>checked deal by deal.</em></h1>
-      <p>${stats.total} real deals from Amazon, Walmart, Best Buy, Dell, Disney+ and Apple. Every price was read at the store on 27 Nov 2026, and every deal carries an honest verdict: a new low, a strong deal, or a routine sale.</p>
+      <p>${stats.total} real deals from Amazon, Walmart, Best Buy, Target, SharkNinja, Dell, Disney+ and Apple. Every price was read at the store on 27 Nov 2026, and every deal carries an honest verdict: a new low, a strong deal, or a routine sale.</p>
       <div class="stats">
         <div class="stat"><b>${stats.total}</b><span>deals checked</span></div>
         <div class="stat"><b>${stats.lows}</b><span>new lows</span></div>
