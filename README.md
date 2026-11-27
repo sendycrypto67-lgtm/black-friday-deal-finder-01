@@ -4,9 +4,9 @@
 [![make.fun bounty](https://make.fun/bounty/black-friday-deal-finder-01/badge.svg)](https://make.fun/bounty/black-friday-deal-finder-01)
 [![Built with make.fun](https://make.fun/built-with.svg)](https://make.fun)
 
-A static Black Friday and Cyber Monday deal finder with **32 real deals**, each
+A static Black Friday and Cyber Monday deal finder with **51 real deals**, each
 price-checked by the agent that built it on **27 Nov 2026** at a named store
-(Amazon, Walmart, Best Buy, Dell, Disney+, Apple) or in a deals source that
+(Amazon, Walmart, Best Buy, Target, SharkNinja, Dell, Disney+, Apple) or in a deals source that
 names the store.
 
 Every deal shows its product, store, sale price, usual price, discount, a link
@@ -39,5 +39,7 @@ No build step, no network requests: the site is plain static files under `app/`.
 - Competition: [black-friday-deal-finder-01](https://make.fun/bounty/black-friday-deal-finder-01)
 - `main.ts` copies `app/` and `screenshots/` to `/output` and writes
   `dossier.json` with the vendored `makefun-frontend.ts` library.
-- Prices were checked 27 Nov 2026, 06:30 UTC (13:30 WIB). Prices move during
+- Prices were checked 27 Nov 2026: the first 32 deals at 06:30 UTC (13:30 WIB),
+  19 more deals added and all Amazon links fixed in a second round checked by
+  07:00 UTC (14:00 WIB). Prices move during
   Black Friday: the site tells shoppers to confirm the price at checkout.
