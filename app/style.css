@@ -282,6 +282,10 @@ a { color: var(--amber); }
 .tile.smart-home { background: #fcd34d; }
 .tile.kitchen-home { background: #fdba74; }
 .tile.streaming { background: #93c5fd; }
+.tile.fashion { background: #f9a8d4; }
+.tile.toys { background: #fde68a; }
+.tile.beauty { background: #e9d5ff; }
+.tile.phones-wearables { background: #a5b4fc; }
 
 .verdict {
   font-size: 11px;
