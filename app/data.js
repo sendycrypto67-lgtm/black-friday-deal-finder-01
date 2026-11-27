@@ -12,6 +12,20 @@
 //   "strong"   a large, genuine cut off the usual price
 //   "routine"  a real cut, but small: worth it only if you wanted it anyway
 //
+// A third round on 27 Nov 2026 (~07:20 UTC / 14:20 WIB) replaced the 12
+// remaining search URLs with direct product links, each verified on the
+// store page at the deal price: 7 Best Buy (Google Home Speaker $79.99,
+// TCL 65S4CF $229.99, Hisense 98QD5SF $799.99, HP OmniBook 5 $449.99,
+// Lenovo Chromebook Slim 3 $189, Sony XM5 $169.99, Pixel Watch 5 $299.99),
+// 4 Walmart (AirPods 4 $89, Apple Watch SE 3 $179, Crock-Pot 7qt $31.98,
+// Ninja SLUSHi $169) and Dell XPS 13 $549.99. The Sony XM5 price was
+// corrected from $169 to $169.99 to match the Best Buy page. One search URL
+// remains on purpose: the Dyson Supersonic Nural at Walmart. Its $259.99
+// price is a 2025 Walmart price (BusinessWire, Nov 2025); Walmart's 2026
+// Nural listings are restored units at $199.99/$209.99, so no direct link
+// to a new unit at $259.99 could be verified and the search link was left
+// rather than guessed.
+//
 // Money fields are US dollars. Streaming deals are monthly prices, marked so.
 
 export const CHECKED_AT = "2026-11-27T07:00:00Z";
@@ -103,7 +117,7 @@ export const deals = [
     category: "Smart home",
     price: 79.99,
     was: 99.99,
-    url: "https://www.bestbuy.com/site/searchpage.jsp?st=Google+Home+Speaker",
+    url: "https://www.bestbuy.com/product/google-home-speaker-smart-speaker-with-gemini-for-home-voice-assistant-and-360-degree-sound-hazel/J39TC8JG7G/sku/6642297",
     checked: CHECKED_AT,
     source: "9to5Google, Best Buy Black Friday deals",
     verdict: "new-low",
@@ -155,7 +169,7 @@ export const deals = [
     category: "TVs",
     price: 229.99,
     was: 469.99,
-    url: "https://www.bestbuy.com/site/searchpage.jsp?st=TCL+65+4K+Fire+TV",
+    url: "https://www.bestbuy.com/product/tcl-65-s4cf-series-4k-uhd-hdr-smart-tv-with-fire-tv-2026/J36QYTHZVP/sku/6687112",
     checked: CHECKED_AT,
     source: "Best Buy Black Friday release via BeeBulletin",
     verdict: "strong",
@@ -166,9 +180,9 @@ export const deals = [
     title: "Hisense 98-inch QD5 Hi-QLED 4K TV",
     store: "Best Buy",
     category: "TVs",
-    price: 800,
-    was: 2500,
-    url: "https://www.bestbuy.com/site/searchpage.jsp?st=Hisense+98+QD5+TV",
+    price: 799.99,
+    was: 2499.99,
+    url: "https://www.bestbuy.com/product/hisense-98-class-qd5-hi-qled-series-4k-uhd-smart-fire-tv-2026/J3Z9Z42FS4/sku/6685580",
     checked: CHECKED_AT,
     source: "Black Friday deals diary, 27 Nov 2026",
     verdict: "strong",
@@ -194,7 +208,7 @@ export const deals = [
     category: "Laptops",
     price: 549.99,
     was: 749.99,
-    url: "https://www.dell.com/en-us/search/xps%2013",
+    url: "https://www.dell.com/en-us/shop/laptop-computers/spd/xps13dx13260/dx13260_so_42",
     checked: CHECKED_AT,
     source: "Product Bible, laptop Black Friday deals",
     verdict: "strong",
@@ -207,7 +221,7 @@ export const deals = [
     category: "Laptops",
     price: 449.99,
     was: 799.99,
-    url: "https://www.bestbuy.com/site/searchpage.jsp?st=HP+OmniBook+5+14+OLED",
+    url: "https://www.bestbuy.com/product/hp-omnibook-5-14-2k-oled-touchscreen-laptop-intel-core-5-series-3-2026-8gb-memory-256gb-ssd-starlit-blue/J3KSW748W6/sku/6690110",
     checked: CHECKED_AT,
     source: "Best Buy Black Friday release via BeeBulletin",
     verdict: "strong",
@@ -220,7 +234,7 @@ export const deals = [
     category: "Laptops",
     price: 189,
     was: 419,
-    url: "https://www.bestbuy.com/site/searchpage.jsp?st=Lenovo+Chromebook+IdeaPad+Slim+3",
+    url: "https://www.bestbuy.com/product/lenovo-chromebook-ideapad-slim-3-14-2k-touchscreen-laptop-mediatek-kompanio-500-series-2026-4gb-memory-64-gb-storage-cosmic-blue/JJGH3QCJKR/sku/6673811",
     checked: CHECKED_AT,
     source: "CNN Underscored, Black Friday laptop deals",
     verdict: "strong",
@@ -244,9 +258,9 @@ export const deals = [
     title: "Sony WH-1000XM5 Noise Cancelling Headphones",
     store: "Best Buy",
     category: "Audio",
-    price: 169,
+    price: 169.99,
     was: 399.99,
-    url: "https://www.bestbuy.com/site/searchpage.jsp?st=Sony+WH-1000XM5",
+    url: "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/6505727",
     checked: CHECKED_AT,
     source: "BeeBulletin, Black Friday deals 2026",
     verdict: "strong",
@@ -259,7 +273,7 @@ export const deals = [
     category: "Audio",
     price: 89,
     was: 129.99,
-    url: "https://www.walmart.com/search?q=Apple+AirPods+4",
+    url: "https://www.walmart.com/ip/Apple-AirPods-4/11381374703",
     checked: CHECKED_AT,
     source: "Walmart Black Friday deals, checked 23 Nov 2026",
     verdict: "strong",
@@ -272,7 +286,7 @@ export const deals = [
     category: "Smart home",
     price: 299.99,
     was: 399.99,
-    url: "https://www.bestbuy.com/site/searchpage.jsp?st=Google+Pixel+Watch+5",
+    url: "https://www.bestbuy.com/product/google-pixel-watch-5-41mm-wi-fi-matte-black-case-obsidian-band-small-large-2026/J39TC82RLZ/sku/6686031",
     checked: CHECKED_AT,
     source: "9to5Google, Best Buy Black Friday deals",
     verdict: "strong",
@@ -298,7 +312,7 @@ export const deals = [
     category: "Smart home",
     price: 179,
     was: 249,
-    url: "https://www.walmart.com/search?q=Apple+Watch+SE+3",
+    url: "https://www.walmart.com/ip/17773224116",
     checked: CHECKED_AT,
     source: "Walmart Black Friday deals, Passion for Savings",
     verdict: "strong",
@@ -387,9 +401,9 @@ export const deals = [
     title: "Crock-Pot 7-Quart Slow Cooker",
     store: "Walmart",
     category: "Kitchen & home",
-    price: 32,
-    was: 80,
-    url: "https://www.walmart.com/search?q=Crock-Pot+7+quart+slow+cooker",
+    price: 31.98,
+    was: 79.99,
+    url: "https://www.walmart.com/ip/Crock-Pot-Manual-7-Quart-Slow-Cooker-Reflection/15200300942",
     checked: CHECKED_AT,
     source: "Yahoo Shopping, Black Friday deals live blog",
     verdict: "strong",
@@ -402,7 +416,7 @@ export const deals = [
     category: "Kitchen & home",
     price: 169,
     was: 319,
-    url: "https://www.walmart.com/search?q=Ninja+SLUSHi+frozen+drink+machine",
+    url: "https://www.walmart.com/ip/Ninja-SLUSHi-96-Oz-Frozen-Drink-Machine-with-RapidChill-Technology-5-Presets-Dishwasher-Safe-Slushy-Maker-FS310GN-Green/18893414176",
     checked: CHECKED_AT,
     source: "Walmart Black Friday deals, checked 23 Nov 2026",
     verdict: "strong",
