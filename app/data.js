@@ -19,12 +19,16 @@
 // Lenovo Chromebook Slim 3 $189, Sony XM5 $169.99, Pixel Watch 5 $299.99),
 // 4 Walmart (AirPods 4 $89, Apple Watch SE 3 $179, Crock-Pot 7qt $31.98,
 // Ninja SLUSHi $169) and Dell XPS 13 $549.99. The Sony XM5 price was
-// corrected from $169 to $169.99 to match the Best Buy page. One search URL
-// remains on purpose: the Dyson Supersonic Nural at Walmart. Its $259.99
-// price is a 2025 Walmart price (BusinessWire, Nov 2025); Walmart's 2026
-// Nural listings are restored units at $199.99/$209.99, so no direct link
-// to a new unit at $259.99 could be verified and the search link was left
-// rather than guessed.
+// corrected from $169 to $169.99 to match the Best Buy page.
+//
+// A fourth round the same day (~07:30 UTC / 14:30 WIB) fixed the last
+// stale deal, the Dyson Supersonic Nural: its $259.99 Walmart price was a
+// 2025 figure, so it was repriced to the verified 2026 Amazon deal, $349
+// (was $449.99, new unit, Ceramic Pink limited finish, ASIN B0DMXJPM4T),
+// confirmed by PureWow's Amazon Black Friday roundup, Gizmodo (23 Nov) and
+// CNN Underscored, with a direct amazon.com/dp link. Its category moved
+// from Smart home to Beauty, where a hair dryer belongs. Zero search URLs
+// remain anywhere in the data.
 //
 // Money fields are US dollars. Streaming deals are monthly prices, marked so.
 
@@ -321,15 +325,15 @@ export const deals = [
   {
     id: "dyson-supersonic-nural",
     title: "Dyson Supersonic Nural Hair Dryer",
-    store: "Walmart",
-    category: "Smart home",
-    price: 259.99,
-    was: 419.99,
-    url: "https://www.walmart.com/search?q=Dyson+Supersonic+Nural",
+    store: "Amazon",
+    category: "Beauty",
+    price: 349,
+    was: 449.99,
+    url: "https://www.amazon.com/dp/B0DMXJPM4T",
     checked: CHECKED_AT,
-    source: "Walmart Black Friday deals, checked 23 Nov 2026",
+    source: "PureWow, Amazon Black Friday deals 2026; Gizmodo, 23 Nov 2026",
     verdict: "strong",
-    note: "38% off Dyson's smart hair dryer, which rarely drops this far.",
+    note: "$100 off Dyson's smart hair dryer, back to its lowest price on Amazon.",
   },
   {
     id: "switch2-mkw-bundle",
