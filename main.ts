@@ -1,6 +1,6 @@
 // DealHawk, a black-friday-deal-finder-01 entry (Node 22, standard library only).
 // The site is this directory's app/ folder: plain static files a browser opens at
-// app/index.html (ES modules, one stylesheet, no build step), its 32 deals held in
+// app/index.html (ES modules, one stylesheet, no build step), its 51 deals held in
 // its own data.js file. Nothing the site runs, styles or shows loads over the
 // network; each deal links out to its store with a normal anchor, which loads
 // nothing by itself. The program hands the site in: it copies app/ and
